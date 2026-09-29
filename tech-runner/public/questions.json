@@ -1,0 +1,327 @@
+[
+  {
+    "id": 1,
+    "lesson": 1,
+    "question": "Complete a frase: 'She ___ a software engineer.'",
+    "options": ["am", "is", "are", "be"],
+    "correct": 1,
+    "explanation": "No Simple Present, usamos 'is' para a 3ª pessoa do singular (he, she, it)."
+  },
+  {
+    "id": 2,
+    "lesson": 1,
+    "question": "Complete a frase: 'I ___ learning JavaScript.'",
+    "options": ["am", "is", "are", "be"],
+    "correct": 0,
+    "explanation": "O pronome 'I' (eu) sempre concorda com a forma 'am' do verbo to be no presente."
+  },
+  {
+    "id": 3,
+    "lesson": 1,
+    "question": "Complete a frase: 'They ___ database administrators.'",
+    "options": ["is", "am", "are", "be"],
+    "correct": 2,
+    "explanation": "Usamos 'are' para o pronome plural 'they' (eles/elas)."
+  },
+  {
+    "id": 4,
+    "lesson": 1,
+    "question": "Qual é a negação correta: 'He ___ work on weekends.'",
+    "options": ["doesn't", "don't", "isn't", "aren't"],
+    "correct": 0,
+    "explanation": "Para he, she e it, o auxiliar de negação no Simple Present é 'doesn't'."
+  },
+  {
+    "id": 5,
+    "lesson": 1,
+    "question": "Complete a pergunta: '___ you use Linux?'",
+    "options": ["Do", "Does", "Is", "Are"],
+    "correct": 0,
+    "explanation": "Usamos o auxiliar 'Do' para fazer perguntas com 'you' no Simple Present."
+  },
+  {
+    "id": 6,
+    "lesson": 1,
+    "question": "Complete o hábito: 'The server ___ every night at 3 AM.'",
+    "options": ["restart", "restarts", "restarting", "is restart"],
+    "correct": 1,
+    "explanation": "Para terceira pessoa do singular (the server = it), adicionamos 's' ao verbo: restarts."
+  },
+  {
+    "id": 7,
+    "lesson": 1,
+    "question": "Complete a frase: 'We ___ computers in the lab.'",
+    "options": ["has", "have", "having", "is have"],
+    "correct": 1,
+    "explanation": "Com o pronome 'we', a forma correta do verbo ter no presente é 'have'."
+  },
+  {
+    "id": 8,
+    "lesson": 1,
+    "question": "Complete a negação: 'I ___ like bugs in my code.'",
+    "options": ["doesn't", "don't", "am not", "not"],
+    "correct": 1,
+    "explanation": "Usamos 'don't' para negar ações no presente com o pronome 'I'."
+  },
+  {
+    "id": 9,
+    "lesson": 1,
+    "question": "Complete a frase: 'It ___ a powerful processor.'",
+    "options": ["is", "are", "am", "be"],
+    "correct": 0,
+    "explanation": "O pronome 'it' (coisas/animais no singular) utiliza 'is' no presente."
+  },
+  {
+    "id": 10,
+    "lesson": 1,
+    "question": "Complete a pergunta: '___ she write clean code?'",
+    "options": ["Do", "Does", "Is", "Are"],
+    "correct": 1,
+    "explanation": "Para formular perguntas com 'she' no Simple Present, utilizamos o auxiliar 'Does'."
+  },
+  {
+    "id": 11,
+    "lesson": 2,
+    "question": "Complete a ação contínua: 'The developer is ___ the bug right now.'",
+    "options": ["fix", "fixes", "fixing", "fixed"],
+    "correct": 2,
+    "explanation": "O Present Continuous é formado pelo verbo to be + verbo principal com terminação -ing."
+  },
+  {
+    "id": 12,
+    "lesson": 2,
+    "question": "Complete a frase: 'I am ___ a new website today.'",
+    "options": ["build", "building", "builds", "built"],
+    "correct": 1,
+    "explanation": "Após 'I am', o verbo principal de ação contínua recebe -ing (building)."
+  },
+  {
+    "id": 13,
+    "lesson": 2,
+    "question": "Qual a grafia correta do verbo 'run' no Present Continuous?",
+    "options": ["runing", "running", "runs", "runed"],
+    "correct": 1,
+    "explanation": "Verbos curtos de uma sílaba terminados em consoante-vogal-consoante dobram a última letra: running."
+  },
+  {
+    "id": 14,
+    "lesson": 2,
+    "question": "Qual a grafia correta do verbo 'make' no Present Continuous?",
+    "options": ["making", "makeing", "makes", "maked"],
+    "correct": 0,
+    "explanation": "Verbos terminados em 'e' silencioso perdem a letra 'e' ao adicionar -ing: making."
+  },
+  {
+    "id": 15,
+    "lesson": 2,
+    "question": "Complete a frase: 'They ___ testing the new API at this moment.'",
+    "options": ["is", "are", "am", "be"],
+    "correct": 1,
+    "explanation": "O pronome plural 'they' utiliza a forma 'are' no Present Continuous."
+  },
+  {
+    "id": 16,
+    "lesson": 2,
+    "question": "Complete a negação: 'He is ___ playing games during work.'",
+    "options": ["no", "not", "don't", "doesn't"],
+    "correct": 1,
+    "explanation": "A negação no Present Continuous é formada adicionando 'not' após o verbo to be."
+  },
+  {
+    "id": 17,
+    "lesson": 2,
+    "question": "Qual frase indica uma ação que está acontecendo EXATAMENTE AGORA?",
+    "options": ["I code every day.", "I am coding now.", "I coded yesterday.", "I will code."],
+    "correct": 1,
+    "explanation": "'I am coding now' usa o Present Continuous para descrever uma ação em andamento no momento da fala."
+  },
+  {
+    "id": 18,
+    "lesson": 2,
+    "question": "Complete a pergunta: 'What are you ___ on your computer?'",
+    "options": ["do", "doing", "does", "did"],
+    "correct": 1,
+    "explanation": "Em perguntas no Present Continuous com 'are you', o verbo de ação deve terminar em -ing."
+  },
+  {
+    "id": 19,
+    "lesson": 2,
+    "question": "Complete a frase: 'The system is ___ files to the cloud.'",
+    "options": ["uploading", "upload", "uploads", "uploaded"],
+    "correct": 0,
+    "explanation": "Acompanhando o auxiliar 'is', usamos a terminação -ing para indicar o processo contínuo."
+  },
+  {
+    "id": 20,
+    "lesson": 2,
+    "question": "Complete: 'She usually works from home, but today she ___ in the office.'",
+    "options": ["is working", "works", "worked", "has work"],
+    "correct": 0,
+    "explanation": "Usamos o Present Continuous (is working) para uma situação temporária que ocorre hoje."
+  },
+  {
+    "id": 21,
+    "lesson": 3,
+    "question": "Qual é o passado regular do verbo 'work'?",
+    "options": ["worked", "worken", "working", "workt"],
+    "correct": 0,
+    "explanation": "Verbos regulares formam o Simple Past com o acréscimo de -ed: work -> worked."
+  },
+  {
+    "id": 22,
+    "lesson": 3,
+    "question": "Qual é o passado regular do verbo 'play'?",
+    "options": ["played", "playied", "plays", "playing"],
+    "correct": 0,
+    "explanation": "O verbo regular 'play' recebe a terminação -ed para o passado simples: played."
+  },
+  {
+    "id": 23,
+    "lesson": 3,
+    "question": "Qual é o passado irregular do verbo 'go'?",
+    "options": ["goed", "went", "gone", "going"],
+    "correct": 1,
+    "explanation": "O verbo 'go' é irregular e seu passado simples é 'went'."
+  },
+  {
+    "id": 24,
+    "lesson": 3,
+    "question": "Qual é o passado irregular do verbo 'see'?",
+    "options": ["seed", "saw", "seen", "seeing"],
+    "correct": 1,
+    "explanation": "O passado simples do verbo irregular 'see' é 'saw'."
+  },
+  {
+    "id": 25,
+    "lesson": 3,
+    "question": "Qual é o passado irregular do verbo 'eat'?",
+    "options": ["eated", "ate", "eaten", "eating"],
+    "correct": 1,
+    "explanation": "O verbo 'eat' tem como forma de passado simples a palavra 'ate'."
+  },
+  {
+    "id": 26,
+    "lesson": 3,
+    "question": "Qual é o passado simples do verbo 'have'?",
+    "options": ["haved", "has", "had", "having"],
+    "correct": 2,
+    "explanation": "O verbo 'have' no Simple Past torna-se 'had'."
+  },
+  {
+    "id": 27,
+    "lesson": 3,
+    "question": "Complete a negação no passado: 'I ___ delete the database yesterday.'",
+    "options": ["didn't", "don't", "doesn't", "wasn't"],
+    "correct": 0,
+    "explanation": "No Simple Past, usamos 'didn't' seguido do verbo na forma base para todas as pessoas."
+  },
+  {
+    "id": 28,
+    "lesson": 3,
+    "question": "Complete a pergunta no passado: '___ you save the file?'",
+    "options": ["Do", "Did", "Does", "Have"],
+    "correct": 1,
+    "explanation": "O auxiliar para formular perguntas no Simple Past é 'Did'."
+  },
+  {
+    "id": 29,
+    "lesson": 3,
+    "question": "Complete a frase: 'We watched the tech conference ___.'",
+    "options": ["yesterday", "tomorrow", "now", "always"],
+    "correct": 0,
+    "explanation": "'Yesterday' (ontem) é uma expressão temporal típica que indica tempo passado definido."
+  },
+  {
+    "id": 30,
+    "lesson": 3,
+    "question": "Qual é o Past Participle (particípio) do verbo 'go'?",
+    "options": ["went", "goed", "gone", "going"],
+    "correct": 2,
+    "explanation": "As três formas do verbo são: go (infinitivo), went (passado) e gone (particípio)."
+  },
+  {
+    "id": 31,
+    "lesson": 5,
+    "question": "Complete a estrutura do Present Perfect: 'I ___ finished my project.'",
+    "options": ["have", "has", "am", "did"],
+    "correct": 0,
+    "explanation": "O Present Perfect com 'I' é formado pelo auxiliar 'have' + particípio passado."
+  },
+  {
+    "id": 32,
+    "lesson": 5,
+    "question": "Complete a frase: 'She ___ created a great mobile app.'",
+    "options": ["have", "has", "is", "did"],
+    "correct": 1,
+    "explanation": "Para he, she e it, usamos o auxiliar 'has' no Present Perfect."
+  },
+  {
+    "id": 33,
+    "lesson": 5,
+    "question": "Complete a ação recém-concluída: 'I have ___ downloaded the file.'",
+    "options": ["just", "yet", "since", "ago"],
+    "correct": 0,
+    "explanation": "A palavra 'just' indica que a ação acabou de acontecer no Present Perfect."
+  },
+  {
+    "id": 34,
+    "lesson": 5,
+    "question": "Complete a frase negativa: 'The update has not arrived ___.'",
+    "options": ["already", "yet", "since", "for"],
+    "correct": 1,
+    "explanation": "Usamos 'yet' no fim de frases negativas com o sentido de 'ainda'."
+  },
+  {
+    "id": 35,
+    "lesson": 5,
+    "question": "Complete indicando que algo já foi feito: 'We have ___ tested the system.'",
+    "options": ["already", "yet", "never", "since"],
+    "correct": 0,
+    "explanation": "Usamos 'already' (já) em frases afirmativas para enfatizar que a ação foi realizada."
+  },
+  {
+    "id": 36,
+    "lesson": 5,
+    "question": "Complete a pergunta de experiência de vida: 'Have you ___ built a robot?'",
+    "options": ["ever", "never", "yet", "since"],
+    "correct": 0,
+    "explanation": "Em perguntas no Present Perfect sobre experiências, usamos 'ever' (alguma vez)."
+  },
+  {
+    "id": 37,
+    "lesson": 5,
+    "question": "Complete indicando nunca ter ocorrido: 'I have ___ dropped a production database.'",
+    "options": ["never", "ever", "yet", "already"],
+    "correct": 0,
+    "explanation": "Usamos 'never' com sentido afirmativo gramatical para dizer 'nunca'."
+  },
+  {
+    "id": 38,
+    "lesson": 5,
+    "question": "Complete indicando ponto inicial no tempo: 'She has coded in Python ___ 2021.'",
+    "options": ["since", "for", "ago", "yet"],
+    "correct": 0,
+    "explanation": "'Since' (desde) é usado para marcar o momento específico em que a ação começou."
+  },
+  {
+    "id": 39,
+    "lesson": 5,
+    "question": "Complete indicando duração de tempo: 'He has studied computing ___ four years.'",
+    "options": ["for", "since", "already", "yet"],
+    "correct": 0,
+    "explanation": "'For' (por/durante) é usado para indicar o período de duração de uma ação."
+  },
+  {
+    "id": 40,
+    "lesson": 5,
+    "question": "Qual a principal ideia do Present Perfect em relação ao presente?",
+    "options": [
+      "Conecta uma ação passada com o presente ou suas consequências.",
+      "Descreve ações que acontecerão somente no futuro distante.",
+      "É idêntico ao Simple Past sem nenhuma diferença.",
+      "Nunca aceita verbos no particípio passado."
+    ],
+    "correct": 0,
+    "explanation": "O Present Perfect expressa fatos passados com relevância, efeito ou continuidade no presente."
+  }
+]

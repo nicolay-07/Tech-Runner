@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Runner — Jogo 2D Educacional de Inglês Técnico</title>
+  <meta name="description" content="Aprenda gramática e vocabulário de inglês técnico enquanto corre e desvia de obstáculos em um jogo 2D didático.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CONTAINER PRINCIPAL DO JOGO -->
+  <main class="game-wrapper" id="gameWrapper">
+
+    <!-- HUD (BARRA DE STATUS SUPERIOR) -->
+    <header class="hud" id="hudBar" aria-label="Status do Jogo">
+      <div class="hud-item" id="hudItemScore">
+        <span id="hudScore">⭐ Pontos: 0</span>
+      </div>
+
+      <div class="hud-item" id="hudItemLives">
+        <span class="hud-lives" id="hudLives" aria-label="Vidas">❤️❤️❤️</span>
+      </div>
+
+      <div class="hud-item" id="hudItemCoins">
+        <span class="hud-coins" id="hudCoins">🪙 Moedas: 0</span>
+      </div>
+
+      <div class="hud-item" id="hudItemQuestions">
+        <span class="hud-questions" id="hudQuestions">📚 Questões: 0/10</span>
+      </div>
+    </header>
+
+    <!-- PALCO GRÁFICO (CANVAS 2D) -->
+    <section class="canvas-container" id="canvasContainer">
+      <canvas id="gameCanvas" width="800" height="400" aria-label="Área de corrida do jogo"></canvas>
+
+      <!-- TELA INICIAL -->
+      <div class="overlay" id="screenStart">
+        <div class="card" id="cardStart">
+          <h1 class="card-title">TECH RUNNER</h1>
+          <p class="card-description">Aprenda inglês técnico enquanto corre!</p>
+
+          <div class="instructions-box">
+            <strong>Controles:</strong>
+            <ul>
+              <li><span class="kbd">Espaço</span> ou <span class="kbd">↑</span> = Pular</li>
+            </ul>
+            <br>
+            <strong>Objetivo:</strong>
+            <p>Acerte <strong>10 questões</strong> para zerar e vencer o jogo sem perder todas as vidas disponíveis.</p>
+          </div>
+
+          <button type="button" class="btn" id="btnStart">INICIAR JOGO</button>
+        </div>
+      </div>
+
+      <!-- MODAL DO QUIZ -->
+      <div class="overlay hidden" id="screenQuiz" role="dialog" aria-modal="true" aria-labelledby="quizQuestion">
+        <div class="quiz-card" id="quizCard">
+          <div class="quiz-header">
+            <span class="quiz-badge" id="quizLessonBadge">Aula 01</span>
+            <span class="quiz-progress" id="quizProgress">Questão 1 de 10</span>
+          </div>
+
+          <h2 class="quiz-question" id="quizQuestion">Carregando pergunta...</h2>
+
+          <!-- Layout 2x2 para as 4 alternativas -->
+          <div class="quiz-options" id="quizOptions">
+            <!-- Alternativas geradas dinamicamente pelo script.js -->
+          </div>
+
+          <!-- Caixa de feedback gramatical -->
+          <div class="feedback-box hidden" id="quizFeedback">
+            <div class="feedback-title" id="feedbackTitle"></div>
+            <div class="feedback-text" id="feedbackText"></div>
+          </div>
+
+          <div class="quiz-footer">
+            <span class="keyboard-hint">Dica: Você também pode usar as teclas <span class="kbd">A</span> <span class="kbd">B</span> <span class="kbd">C</span> <span class="kbd">D</span></span>
+            <button type="button" class="btn hidden" id="btnContinueQuiz">Continuar</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- TELA DE GAME OVER -->
+      <div class="overlay hidden" id="screenGameOver">
+        <div class="card" id="cardGameOver">
+          <h1 class="card-title gameover">GAME OVER</h1>
+          <p class="card-description">Você ficou sem vidas.</p>
+
+          <div class="stats-list">
+            <div class="stat-item">
+              <span>Pontuação:</span>
+              <span id="finalScoreGameOver">0</span>
+            </div>
+            <div class="stat-item">
+              <span>Moedas coletadas:</span>
+              <span id="finalCoinsGameOver">0</span>
+            </div>
+            <div class="stat-item">
+              <span>Questões acertadas:</span>
+              <span id="finalQuestionsGameOver">0/10</span>
+            </div>
+          </div>
+
+          <button type="button" class="btn btn-secondary" id="btnRestartGameOver">JOGAR NOVAMENTE</button>
+        </div>
+      </div>
+
+      <!-- TELA DE VITÓRIA -->
+      <div class="overlay hidden" id="screenVictory">
+        <div class="card" id="cardVictory">
+          <h1 class="card-title victory">🎉 VOCÊ ZEROU O JOGO!</h1>
+          <p class="card-description">Parabéns! Você acertou 10 questões de inglês técnico sem perder todas as vidas disponíveis!</p>
+
+          <div class="stats-list">
+            <div class="stat-item">
+              <span>Pontuação final:</span>
+              <span id="finalScoreVictory">0</span>
+            </div>
+            <div class="stat-item">
+              <span>Moedas coletadas:</span>
+              <span id="finalCoinsVictory">0</span>
+            </div>
+          </div>
+
+          <button type="button" class="btn" id="btnRestartVictory">JOGAR NOVAMENTE</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTROLE DE TOQUE PARA DISPOSITIVOS MÓVEIS -->
+    <footer class="touch-controls" id="touchControls">
+      <button type="button" class="touch-btn" id="btnMobileJump">PULAR (TOQUE AQUI)</button>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

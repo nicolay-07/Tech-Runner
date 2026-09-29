@@ -1,0 +1,6 @@
+{
+  "name": "Tech Runner",
+  "description": "Jogo 2D educacional de corrida com obstáculos e quiz de inglês técnico.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tech-runner",
+  "version": "1.0.0",
+  "description": "Jogo 2D educacional de inglês técnico",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "node -e 'process.exit(0)'"
+  }
+}
